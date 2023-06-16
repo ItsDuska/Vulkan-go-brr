@@ -141,6 +141,11 @@
   <ItemGroup>
     <ClInclude Include="source\Triangle\TriangleApp.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\Compile.bat" />
+    <None Include="shaders\Triangle.frag" />
+    <None Include="shaders\Triangle.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
